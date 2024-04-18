@@ -1,29 +1,29 @@
-# Proyecto inicial - Curso de TypeScript parte 2
+# Basic TypeScript Course part 2 - Initial Project
 
-* Lo primero que debemos de hacer después de descargar el código es ejecutar el comando:
+* The first thing we need to do after downloading the code is to run the command:
 
 ```
 npm install
 ```
-Ese comando descargará todos los módulos de node necesarios para ejecutar el proyecto.
+That command will download all the necessary Node modules to run the project
 
 
-* Cuando termine de instalar los node_modules, entonces podermos ejecutar el proyecto de con el siguiente comando
+* When the installation of node_modules is complete, then we can run the project with the following command
 
 ```
 npm start
 ```
-Para que eso funcione, recuerden que deben de ejecutar ese comando en el mismo directorio donde se encuentra el ```package.json```
+For that to work, remember that you must run that command in the same directory where the ```package.json```
 
-## Cambiar el puerto
-Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero si necesitan cambiarlo porque pueda que ese puerto lo use su computadora, pueden cambiarlo abriendo el ```package.json``` >> scripts. Ahí verán la instrucción que lanza el servidor de desarrollo
+## Change the port
+By default, the port I've configured for this project is ```8081```, but if you need to change it because your computer might be using that port, you can do so by opening the ```package.json``` >> scripts. There you'll see the command that launches the development server
 
 ```
 "start": "webpack serve --mode development --open --port=8081"
 ```
 
-Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
+Simply change the port to whichever one you need, and you're all set. (Remember to save the changes before running ```npm start``` again)
 
 
-# curso-typescript
+# typescript-course
 Typescript
