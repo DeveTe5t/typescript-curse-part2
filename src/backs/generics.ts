@@ -1,13 +1,13 @@
-// import { Hero } from "./classes/Hero";
-// // import { Hero as SuperHero, Hero2 } from "./classes/Hero";
-// // import * as HeroClasses from "./classes/Hero";
-// // import { powers } from "./data/powers";
-// // import powers from "./data/powers";
+// import { Hero } from "../classes/Hero";
+// // import { Hero as SuperHero, Hero2 } from "../classes/Hero";
+// // import * as HeroClasses from "../classes/Hero";
+// // import { powers } from "../data/powers";
+// // import powers from "../data/powers";
 
-// import { Hero } from "./interfaces/hero";
-// import { Villian } from "./interfaces/villian";
-import { Hero, Villian } from "./interfaces";
-import { printObject, genericFunction, genericFunctionArrow } from "./generics/generics";
+// import { Hero } from "../interfaces/hero";
+// import { Villian } from "../interfaces/villian";
+import { Hero, Villian } from "../interfaces";
+import { printObject, genericFunction, genericFunctionArrow } from "../generics/generics";
 
 // // const Hero = 123;
 
