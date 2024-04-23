@@ -1,7 +1,11 @@
-import { getPokemon } from "./generics/get-pokemon";
+import { Pokemon } from './decorators/pokemon-class';
 
-// console.log(getPokemon());
-getPokemon(4)
-    .then(pokemon => console.log(pokemon))
-    .catch(error => console.error(error))
-    .finally(() => console.log('End of getPokemon!'));
+const charmander = new Pokemon('Charmander');
+
+// (Pokemon.prototype as any).customName = 'Fulanikachu';
+
+// console.log(charmander.savePokemonToDB(70));
+// charmander.savePokemonToDB(70);
+
+charmander.publicApi = 'https://pokeapi.co/v4';
+console.log(charmander);
